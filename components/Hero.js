@@ -49,7 +49,7 @@ export default function Hero() {
 
         {/* CTA */}
         <motion.div variants={up} initial="hidden" animate="show" custom={0.3} style={{ marginBottom:52 }}>
-          <motion.a href="https://cal.com/tana-aumatic-jwapmu" target="_blank" rel="noopener noreferrer" whileHover={{ scale:1.04, y:-2 }} whileTap={{ scale:0.97 }}
+          <motion.a href="https://cal.com/chandan-kumar-zhrofj/30min" target="_blank" rel="noopener noreferrer" whileHover={{ scale:1.04, y:-2 }} whileTap={{ scale:0.97 }}
             style={{ display:'inline-flex', alignItems:'center', gap:12, padding:'17px 38px', borderRadius:13, fontSize:17, fontWeight:800, background:'linear-gradient(135deg,#C2622D,#A8501F)', color:'white', textDecoration:'none', boxShadow:'0 8px 32px rgba(194,98,45,0.45)', letterSpacing:0.2 }}>
             Book a Free Call <span style={{ fontSize:18 }}>→</span>
           </motion.a>
