@@ -4,7 +4,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 import Navbar       from '../components/Navbar'
 import Hero         from '../components/Hero'
-import LogoBar      from '../components/LogoBar'
 import Process      from '../components/Process'
 import Capabilities  from '../components/Capabilities'
 import WhyUs         from '../components/WhyUs'
@@ -61,7 +60,7 @@ export default function Home() {
         <link rel="icon" href="/aumatic_favicon.png"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet"/>
       </Head>
       <AnimatePresence>{!loaded&&<Loader onDone={()=>setLoaded(true)}/>}</AnimatePresence>
       {loaded&&(
@@ -70,7 +69,6 @@ export default function Home() {
           <Navbar/>
           <main>
             <Hero/>
-            <LogoBar/>
             <Process/>
             <Capabilities/>
             <WhyUs/>

@@ -60,7 +60,7 @@ export default function Navbar() {
 
         {/* ── CTA + hamburger ── */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <motion.a href={isHome ? '#contact' : '/#contact'} whileHover={{ scale: 1.04, y: -1 }} whileTap={{ scale: 0.97 }}
+          <motion.a href="https://cal.com/tana-aumatic-jwapmu" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.04, y: -1 }} whileTap={{ scale: 0.97 }}
             style={{ padding: '11px 24px', borderRadius: 10, fontSize: 15, fontWeight: 700, background: 'linear-gradient(135deg,#C2622D,#A8501F)', color: 'white', textDecoration: 'none', boxShadow: '0 4px 18px rgba(194,98,45,0.38)', whiteSpace: 'nowrap' }}>
             Book a Call
           </motion.a>
@@ -94,7 +94,7 @@ export default function Navbar() {
                   onMouseLeave={e => e.target.style.color = '#3D2314'}
                 >{l.label}</a>
               ))}
-              <a href={isHome ? '#contact' : '/#contact'} onClick={() => setOpen(false)}
+              <a href="https://cal.com/tana-aumatic-jwapmu" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}
                 style={{ display: 'block', marginTop: 16, padding: '14px', borderRadius: 12, textAlign: 'center', background: 'linear-gradient(135deg,#C2622D,#A8501F)', color: 'white', textDecoration: 'none', fontWeight: 700, fontSize: 16 }}>
                 Book a Free Consultation →
               </a>

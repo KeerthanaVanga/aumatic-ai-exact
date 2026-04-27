@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 
 /* ─── Aumatic.AI Exact Color System ─────────────────────────── */
 :root {
@@ -33,7 +33,7 @@
   --border-card:  rgba(194,98,45,0.12);
 
   /* Fonts */
-  --font-sans:    'Inter', system-ui, sans-serif;
+  --font-sans:    'Montserrat', system-ui, sans-serif;
   --font-serif:   'Playfair Display', 'Georgia', serif;
 }
 

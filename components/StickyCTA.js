@@ -18,7 +18,7 @@ export default function StickyCTA() {
             <span style={{fontSize:13,color:'#3D2314',fontWeight:500}}><strong style={{color:'#1A0F0A'}}>3 spots left</strong> this month</span>
           </div>
           <div style={{width:1,height:20,background:'rgba(194,98,45,0.2)'}}/>
-          <motion.a href="#contact" whileHover={{scale:1.04}} whileTap={{scale:0.97}}
+          <motion.a href="https://cal.com/tana-aumatic-jwapmu" target="_blank" rel="noopener noreferrer" whileHover={{scale:1.04}} whileTap={{scale:0.97}}
             style={{padding:'9px 20px',borderRadius:10,fontSize:13,fontWeight:700,background:'linear-gradient(135deg,#C2622D,#A8501F)',color:'white',textDecoration:'none',boxShadow:'0 4px 16px rgba(194,98,45,0.38)'}}>
             Free Consultation →
           </motion.a>
