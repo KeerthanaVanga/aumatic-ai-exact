@@ -67,7 +67,7 @@ export default function CaseStudyPage({ study }) {
         <link rel="icon" href="/aumatic_favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
       <div style={{ minHeight: '100vh', background: '#F5EFE8', position: 'relative', overflow: 'hidden' }}>
